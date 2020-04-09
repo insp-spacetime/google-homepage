@@ -2,13 +2,73 @@ body {
     background-color: wheat;
 }
 
-main {
-    height: 400px;
+header {
+    height: 40px;
+    /* background-color: cadetblue; */
+     
+    
 }
 
-img {
-    display: block;
-    margin-top: 50px;
+main {
+    /* background-color: brown; */
+    /* height: 400px; */
+}
+
+nav {
+    background-color: blue;
+    /* text-align: left; */
+}
+ul {
+    display: flex;
+
+    /* text-align: left; */
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 5px 5px 0 5px;
+    padding: 0 10px;
+}
+
+.left {
+    float: left;
+    
+}
+
+.right {
+    float: right;
+}
+
+#circle-icon {
+    width: 25px;
+    position: relative;
+    top: -3px;
+    margin: 0;
+}
+
+li {
+    
+    display: inline; 
+    padding: 10px; 
+    /* margin: 0 15px; */
+    /* text-align: left; */
+}
+
+#grid-icon {
+    width: 15px;
+    margin: 0 0 0 0;
+    padding: 0px;
+    position: relative;
+    top: 3px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    display: flex;
+    margin-top: 10px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
@@ -27,9 +87,9 @@ form {
 input {
     width: 100%;
     /* border: none; */
-    
+    border-style: outset;
     display: flex;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 16px;
     
     /* margin-right: auto;
@@ -49,9 +109,7 @@ p {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-}
+
 /* input {
     display: block;
     margin-right: auto;
