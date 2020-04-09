@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: wheat;
 }
 
@@ -14,6 +16,11 @@ main {
     /* height: 400px; */
 }
 
+div {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: blue;
     /* text-align: left; */
@@ -24,7 +31,7 @@ ul {
     /* text-align: left; */
     justify-content: space-evenly;
     list-style-type: none;
-    margin: 5px 5px 0 5px;
+    margin: 0;
     padding: 0 10px;
 }
 
@@ -64,6 +71,17 @@ li {
 
 a {
     text-decoration: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: black;
+}
+
+footer a {
+    color: grey;
 }
 
 #logo {
@@ -102,13 +120,39 @@ button {
     margin: 20px 20px 0 20px;
     padding: 10px; 
     background-color: beige; 
+    color: grey;
+    border: none;
     border-radius: 5px;  
 } 
 
 p {
     text-align: center;
+    margin: 0;
 }
 
+footer {
+    background-color: gainsboro;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* text-align: left;
+    
+    display: inline-block; */
+}
+
+#foot-1 {
+    border: 2px solid lightslategrey;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 10px 20px;
+    /* text-align: left; */
+}
 
 /* input {
     display: block;
